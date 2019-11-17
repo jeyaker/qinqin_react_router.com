@@ -1,0 +1,49 @@
+@import 'assets/style/theme.scss';
+@import 'assets/style/border.scss';
+
+footer {
+    height: .48rem;
+    @include border(#ccc, 1px 0 0 0);
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+
+        li {
+            height: 100%;
+
+            a {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: .12rem;
+                align-items: center;
+
+                i {
+                    color: #666;
+                    font-size: .15rem;
+                }
+
+                span {
+                    margin-top: .04rem;
+                    color: #666;
+                    font-size: .12rem;
+                }
+
+                &.active {
+                    i {
+                        color: $theme_color;
+                    }
+
+                    span {
+                        color: $theme_color;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

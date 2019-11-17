@@ -1,0 +1,38 @@
+.am-list-item {
+    background-color: transparent !important;
+}
+
+.am-checkbox-inner {
+    border-radius: 0 !important;
+}
+
+.am-list-content {
+    font-size: .16rem !important;
+}
+
+.am-list-line {
+    padding-right: 0 !important;
+    width: 0 !important;
+}
+
+.am-button {
+    font-size: .14rem !important;
+    line-height: .4rem !important;
+}
+
+.am-button-inline {
+    padding: 0 .1rem !important;
+}
+
+.end {
+    margin-top: .15rem;
+    line-height: .4rem;
+    padding-left: 1.5rem;
+
+    .price {
+        display: inline-block;
+        width: 1.5rem;
+        height: .4rem;
+        vertical-align: top;
+    }
+}

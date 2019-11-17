@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    touch-action: none;
+}
+
+html,
+body,
+#root,
+#layout {
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    flex: 1;
+    height: 100%;
+}
