@@ -2,7 +2,7 @@
 
 ## 运行
 
-'$ yarn' or '$ cnpm i' 
+$ yarn
 
 $ yarn start
 
